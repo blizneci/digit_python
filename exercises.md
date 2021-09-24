@@ -700,8 +700,7 @@
        https://upload.wikimedia.org/wikpedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/800px-Ada_Lovelace_portrain.jpg
        5. Сделайте ширину изобажения 300px.
         Ответ:
-        Ответ на задачу
-        Ответ на задачу
+        Результат выполнения этого задания содержится в файле ./web/exercise_8.2.html
    8.3 Запуск локального HTTP сервера/
     Задача 1
       Есть страничка, лежащая по адресу http://site.ru/users/all/11/index.html
