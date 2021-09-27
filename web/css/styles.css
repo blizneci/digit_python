@@ -1,0 +1,25 @@
+
+img.my-photo {
+    width: 20%;
+}
+body p .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+a {
+    color: blue; 
+}
+a.vk-link {
+    color: brown;
+    font-size: 20px;
+}
+body {
+    background-color: #ffffee;
+    padding: 20px;
+}
+.important-info {
+        color: red;
+    margin-top: 30px;
+}
