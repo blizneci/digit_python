@@ -751,8 +751,12 @@
       не требование спецификации, но степик не умеет HTML атрибуты проваерять регистронезависимо).
       Напишите структуру и стили html документа:
         Ответ:
-        Ответ на задачу
-        Ответ на задачу
+          <form action="http://site.ru/update-user/12/" class="feedback-form" method="POST" />
+            <p>Введите ваше имя и email ниже</p>
+            <p><input type="text" name="first_name" placeholder="Ваше имя" /></p>
+            <p><input type="text" name="email" placeholder="Ваш email" /></p>
+            <p><input type="submit" value="Отправить" /></p>
+          </form>
    8.6 Chrome developer tools/
     Задача 1
       Открой в браузере Google Chrome страницу:
