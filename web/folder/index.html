@@ -3,6 +3,15 @@
     <title>Моя первая страничка!</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/css/styles.css" media="all">
+    <script type="text/javascript">
+        window.onload = function(){
+            let h1 = document.querySelector('h1');
+            h1.addEventListener("click", function(){
+                h1.style.color = 'red';
+                document.querySelector('img').style.display = 'none';
+            })
+        }
+    </script>
 </head>    
 <body>
 <h1>Привет, Мир!</h1>
@@ -35,12 +44,6 @@
     <p>Отправьте мне сообщение!</p>
     <p><input type="text" name="first_name" placeholder="Ваше имя" /></p>
     <p><textarea name="message" placeholder="Ваше сообщение"></textarea></p>
-    <p><input type="submit" value="Отправить"></p>
-</form>
-<form action="http://site.ru/update-user/12/" class="feedback-form" method="POST">
-    <p>Введите имя и email ниже</p>
-    <p><input type="text" name="first_name" placeholder="Ваше имя"></p>
-    <p><input type="text" name="email" placeholder="Ваш email"></p>
     <p><input type="submit" value="Отправить"></p>
 </form>
 
