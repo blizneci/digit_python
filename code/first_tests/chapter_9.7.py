@@ -84,10 +84,10 @@ while True:
     if len(sample_input.split()) >= 3:
         break
     print("Введенная строка содержит меньше 3 слов, введите строку заново")
-print(f"Введенная строка: {sample_input}")
+print(f"Введенная строка: __{sample_input}__")
 sample_input_list = sample_input.split()
 first_word, *middle_list, last_word = sample_input_list
-print(middle_list)
+print(f"__{middle_list}__")
 middle_string = (' '.join(middle_list)).strip()
-print(f"{middle_string}")
+print(f"__{middle_string}__")
 stop_exercise()
