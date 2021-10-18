@@ -22,10 +22,9 @@ def stop_exercise():
 
 print("Упражнение 5.1")
 if len(sys.argv) < 3:
-    print("Введите числа")
+    print("Введите два целочисленных числа в качестве параметров")
     exit()
-first_number_string = sys.argv[1]
-second_number_string = sys.argv[2]
+module_name, first_number_string, second_number_string, *other = sys.argv
 try:
     first_number = int(first_number_string)
     second_number = int(second_number_string)
@@ -33,7 +32,9 @@ try:
 except ValueError:
     print("Введено не целочисленное число")
     exit()
+print("Если оба числа большее 100, то будет выведено большее из них")
+print("В противном случае - сумма второго и числа 112")
 if first_number > 100 and second_number > 100:
-    print(max(first_number, second_number))
+    print(f"Максимальное число: {max(first_number, second_number)}")
 else:
-    print(second_number + 112)
+    print(f"Сумма второго чила и 112: {second_number + 112}")

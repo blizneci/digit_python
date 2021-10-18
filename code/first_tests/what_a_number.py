@@ -25,21 +25,21 @@ def stop_exercise():
 # Если передано отрицательное число - печатать "Это отрицательное число".
 
 print("Упражнение 4.1")
-if len(sys.argv) <= 1:
+if len(sys.argv) < 2:
     print("Введите вторым аргументом число")
-    stop_exercise()
-number_string = sys.argv[1]
-number_string = number_string.replace(',', '.')
+    exit()
+number_string = sys.argv[1].replace(',', '.')
+
 try:
     number = float(number_string)
     print(f"It is a number: {number}")
 except ValueError:
     print("It is not a number")
     exit()
-print(type(number))
-if number == 0:
-    print("Это ноль")
+
+if number > 0:
+    print("Это положительное число")
 elif number < 0:
     print("Это отрицательное число")
 else:
-    print("Это положительное число")
+    print("Это ноль")
