@@ -21,30 +21,31 @@ try:
     print(f"Месяц: {month} день: {day}")
 except ValueError:
     print("Введена некорректная дата")
+    exit()
 
-if (month == 12 and 22 < day < 31) or (month == 1 and 1 < day < 19):
+if (month == 12 and 22 <= day <= 31) or (month == 1 and 1 <= day <= 19):
     print("22.12 - 19.01: 'Capricorn', 'Козерог'")
-elif (month == 1 and 20 < day < 31) or (month == 2 and 1 < day < 18):
+elif (month == 1 and 20 <= day <= 31) or (month == 2 and 1 <= day <= 18):
     print("20.01 - 18.02: 'Aquarius', 'Водолей'")
-elif (month == 2 and 19 < day < 29) or (month == 3 and 1 < day < 20):
+elif (month == 2 and 19 <= day <= 29) or (month == 3 and 1 <= day <= 20):
     print("19.02 - 20.03: 'Pisces', 'Рыбы'")
-elif (month == 3 and 21 < day < 31) or (month == 4 and 1 < day < 19):
+elif (month == 3 and 21 <= day <= 31) or (month == 4 and 1 <= day <= 19):
     print("21.03 - 19.04: 'Aries', 'Овен'")
-elif (month == 4 and 20 < day < 30) or (month == 5 and 1 < day < 20):
+elif (month == 4 and 20 <= day <= 30) or (month == 5 and 1 <= day <= 20):
     print("20.04 - 20.05: 'Taurus', 'Телец'")
-elif (month == 5 and 21 < day < 31) or (month == 6 and 1 < day < 20):
+elif (month == 5 and 21 <= day <= 31) or (month == 6 and 1 <= day <= 20):
     print("21.05 - 20.06: 'Gemini', 'Близнецы'")
-elif (month == 6 and 21 < day < 30) or (month == 7 and 1 < day < 22):
+elif (month == 6 and 21 <= day <= 30) or (month == 7 and 1 <= day <= 22):
     print("21.06 - 22.07: 'Cancer', 'Рак'")
-elif (month == 7 and 23 < day < 31) or (month == 8 and 1 < day < 22):
+elif (month == 7 and 23 <= day <= 31) or (month == 8 and 1 <= day <= 22):
     print("23.07 - 22.08: 'Leo', 'Лев'")
-elif (month == 8 and 23 < day < 31) or (month == 9 and 1 < day < 22):
+elif (month == 8 and 23 <= day <= 31) or (month == 9 and 1 <= day <= 22):
     print("23.08 - 22.09: 'Virgo', 'Дева'")
-elif (month == 9 and 23 < day < 30) or (month == 10 and 1 < day < 22):
+elif (month == 9 and 23 <= day <= 30) or (month == 10 and 1 <= day <= 22):
     print("23.09 - 22.10: 'Libra', 'Весы'")
-elif (month == 10 and 23 < day < 31) or (month == 11 and 1 < day < 21):
+elif (month == 10 and 23 <= day <= 31) or (month == 11 and 1 <= day <= 21):
     print("23.10 - 21.11: 'Scorpio', 'Скорпион'")
-elif (month == 11 and 22 < day < 30) or (month == 12 and 1 < day < 21):
+elif (month == 11 and 22 <= day <= 30) or (month == 12 and 1 <= day <= 21):
     print("22.11 - 21.12: 'Sagittarius', 'Стрелец'")
 else:
     print("Введена некорректная дата")
