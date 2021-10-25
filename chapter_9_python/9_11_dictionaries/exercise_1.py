@@ -9,4 +9,7 @@ import json
 
 
 my_dict = json.loads(input("Введите словарь\n"))
-print(my_dict)
+MIN_VALUE = min(my_dict.values())
+for key, value in my_dict.items():
+    if value == MIN_VALUE:
+        print(key)
