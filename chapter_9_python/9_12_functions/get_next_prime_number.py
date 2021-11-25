@@ -17,7 +17,7 @@ def get_next_prime_number(number):
         i = min(set_numbers)
         set_prime_numbers.add(i)
         set_numbers -= set(range(i, (number + 1), i))
-    print(sorted(set_prime_numbers))
+   # print(sorted(set_prime_numbers))
 
     not_prime_flag = True
     next_number = number 
