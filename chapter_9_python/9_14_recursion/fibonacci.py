@@ -21,5 +21,5 @@ def get_fib_iter(n):
 
 n = int(input('Введите номер числа Фибоначчи \n'))
 print(f'Поиск {n}-го числа Фибоначчи')
-print(f'Рекурсивный поиск: {get_fib_rec(n)}')
+#print(f'Рекурсивный поиск: {get_fib_rec(n)}')
 print(f'Итеративный поиск: {get_fib_iter(n)}')
