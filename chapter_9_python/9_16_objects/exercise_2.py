@@ -21,7 +21,10 @@ class User():
         return self.name
 
 user = User('John', 19)
-print(user.is_adult())
-print(user.get_name())
-password = user.generate_password(length=10)
+if user.is_adult():
+    print(f'Пользователь {user.name} совершеннолетний')
+else:
+    print(f'Пользователь {user.name} несовершеннолетний')
+
+password = user.generate_password(15)
 print(password)
