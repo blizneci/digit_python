@@ -1640,8 +1640,7 @@
       {'name': 'Vasya', 'phone': '033'},
       {'name': 'Daniel', 'phone': '777'}]
         Ответ:
-        Ответ на задачу
-        Ответ на задачу
+        Решение задачи в файле ~/edu_projects/digit_python/chapter_9_python/9_21_std_lib/exercise_2.py
    9.22 Virtualenv, pip и сторонние библиотеки/
    9.23 Баги и работа с ними/
    9.24 Критерии хорошей программы/
