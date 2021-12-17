@@ -17,4 +17,4 @@ if not input_string.isnumeric():
 
 size_of_dict = int(input_string)
 square_numbers_dict = {i: i ** 2 for i in range(1, size_of_dict + 1)}
-print(f"Словарь квадратов:\n{square_numbers_dict}")
+print(f"Словарь квадратов:\n{json.dumps(square_numbers_dict)}")
