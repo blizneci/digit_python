@@ -6,11 +6,12 @@
     <script type="text/javascript">
         window.onload = function(){
             let h1 = document.querySelector('h1');
-            h1.addEventListener("click", function(){
+            h1.addEventListener('click', function(){
                 h1.style.color = 'red';
                 document.querySelector('img').style.display = 'none';
             })
-        }
+            document.querySelector('p:nth-of-type(2)').style.color = 'green';
+        };
     </script>
 </head>    
 <body>
